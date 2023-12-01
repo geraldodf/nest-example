@@ -18,5 +18,5 @@ model Product {
   name        String
   description String?
   quantity    Int     @default(1)
-  price       Int
+  price       Float
 }
